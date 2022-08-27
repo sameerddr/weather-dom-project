@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-image: radial-gradient( circle farthest-corner at 22.4% 21.7%, rgba(4, 189, 228, 1) 0%, rgba(2, 83, 185, 1) 100.2%);
+}
+
+#Para1 {
+    color: whitesmoke;
+    margin: 50px;
+}
+
+#cityInput {
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    color: purple;
+    text-transform: capitalize;
+}
+
+#inputContainer {
+    color: black;
+    font-size: 30px;
+    margin: 20px;
+}
+
+.btn {
+    padding: 10px 30px;
+    background-color: #007067;
+    color: white;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+
+#cityName {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+#iconsContainer {
+    height: 340px;
+    width: 90%;
+    border: 5px solid rgb(31, 82, 82);
+    border-radius: 10px;
+    background-color: #12eb3a;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.icons {
+    float: left;
+    height: 300px;
+    width: 210px;
+    margin: 20px;
+    border: 5px solid rgb(48, 47, 47);
+    border-radius: 10px;
+}
+
+.image {
+    height: 140px;
+    width: 100%;
+}
+
+.imgClass {
+    height: 140px;
+    width: 100%;
+}
+
+.weather {
+    margin: 10px;
+    background-color: rgb(106, 215, 255);
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.minValues {
+    text-align: center;
+    display: inline-block;
+    border-radius: 5px;
+    height: 30px;
+    width: 85px;
+    margin-left: 5px;
+    background-color: red;
+}
+
+.maxValues {
+    text-align: center;
+    display: inline-block;
+    border-radius: 5px;
+    height: 30px;
+    width: 85px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    background-color: red;
+}
